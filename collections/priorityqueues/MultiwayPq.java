@@ -1,14 +1,9 @@
-package br.com.alura.loja.imposto;
-
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 import java.util.PriorityQueue;
-import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class MultiwayPq {
