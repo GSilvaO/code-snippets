@@ -30,22 +30,5 @@ public class BinarySearch {
         }
 
         return -1;
-
-        int low = 0;
-        int high = nums.length - 1;
-        int mid;
-
-        while(low != high - 1) {
-            mid = (low + high) / 2;
-
-            if(nums[low] == target) return low; 
-            else if(nums[high] == target) return high;
-            else if(nums[mid] == target) return mid;
-
-            if(target < nums[mid]) high = mid;
-            else if(target > nums[mid]) low = mid;
-        }
-
-        return -1;
     }
 }
